@@ -1,5 +1,8 @@
 <Solution>
-  <Folder Name="/src/">
+  <Folder Name="/src/outfitPlanner/">
+    <Project Path="src/outfitPlanner/outfitPlanner.csproj" />
+  </Folder>
+  <Folder Name="/src/agenticCalculator/">
     <Project Path="src/agenticCalculator/agenticCalculator.csproj" />
   </Folder>
 </Solution>
