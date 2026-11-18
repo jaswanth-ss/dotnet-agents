@@ -1,7 +1,11 @@
 <Solution>
+  <Folder Name="/src/fileorganizer/">
+    <Project Path="src/fileorganizer/fileOrganizer.csproj" />
+  </Folder>
   <Folder Name="/src/outfitPlanner/">
     <Project Path="src/outfitPlanner/outfitPlanner.csproj" />
   </Folder>
+  <Folder Name="/src/" />
   <Folder Name="/src/agenticCalculator/">
     <Project Path="src/agenticCalculator/agenticCalculator.csproj" />
   </Folder>
