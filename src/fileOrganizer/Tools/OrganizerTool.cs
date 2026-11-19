@@ -75,7 +75,7 @@ namespace fileOrganizer.Tools
                         string ext = Path.GetExtension(move.FileName);
                         destPath = Path.Combine(destinationFolder, $"{fileName}_{DateTime.Now:HHmmss}.{ext}" );
                     }
-                    File.Move(sourcePath, destinationFolder);
+                    File.Move(sourcePath, destPath);
                     moveCount++;
                 }
             return $"Successfully moved ${moveCount} into TestFolder";
